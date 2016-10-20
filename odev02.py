@@ -7,7 +7,9 @@ Created on Fri Oct  7 12:00:18 2016
 """
 
 import numpy as np
-
+f=open("Metin.txt","r")
+plaintext=f.read
+print plaintext
     
     
 class airlineProblem:
